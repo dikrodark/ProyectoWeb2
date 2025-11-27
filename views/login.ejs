@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>LIBRERÍA</h2>
+    </nav>
+
+    <div class="container">
+        <h2 class="title">Iniciar Sesión</h2>
+
+        <form action="/login" method="POST" class="card">
+            <label>Correo:</label>
+            <input type="email" name="correo" required>
+
+            <label>Contraseña:</label>
+            <input type="password" name="contraseña" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <%- include('footer') %>
+
+
+</body>
+</html>
